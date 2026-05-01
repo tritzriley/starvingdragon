@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" as="style" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -273,7 +274,7 @@
       flex-shrink: 0;
       font-size: 20px;
     }
-    .feature-content h4 { font-size: 14px; font-weight: 600; color: #c4aa8a; margin-bottom: 7px; }
+    .feature-content h3 { font-size: 14px; font-weight: 600; color: #c4aa8a; margin-bottom: 7px; }
     .feature-content p { font-size: 13px; line-height: 1.7; color: #987848; }
 
     /* ── FLAVOR ── */
@@ -301,7 +302,7 @@
     }
     .pairing-card:hover { border-color: rgba(232,82,42,0.4); }
     .pairing-emoji { font-size: 30px; margin-bottom: 12px; display: block; }
-    .pairing-card h4 { font-size: 13px; font-weight: 600; color: #c4aa8a; margin-bottom: 8px; }
+    .pairing-card h3 { font-size: 13px; font-weight: 600; color: #c4aa8a; margin-bottom: 8px; }
     .pairing-card p { font-size: 12px; line-height: 1.6; color: #886838; }
 
     /* ── INGREDIENTS ── */
@@ -316,7 +317,7 @@
     }
     .ing-item { background: #0d0703; padding: 28px 24px; display: flex; align-items: flex-start; gap: 16px; }
     .ing-dot { width: 7px; height: 7px; border-radius: 50%; background: #e8522a; margin-top: 6px; flex-shrink: 0; }
-    .ing-item h4 { font-size: 14px; font-weight: 600; color: #c4aa8a; margin-bottom: 5px; }
+    .ing-item h3 { font-size: 14px; font-weight: 600; color: #c4aa8a; margin-bottom: 5px; }
     .ing-item p { font-size: 12px; line-height: 1.65; color: #886838; }
 
     /* ── QUOTE ── */
@@ -411,6 +412,8 @@
     </a>
   </nav>
 
+  <main>
+
   <!-- HERO -->
   <div class="hero">
     <p class="hero-eyebrow">Craft-batch · Chattanooga, TN · Since 2026</p>
@@ -486,27 +489,27 @@
       <div class="sichuan-features">
         <div class="feature">
           <div class="feature-icon-wrap">🫙</div>
-          <div class="feature-content"><h4>Hot Oil Drizzle Method</h4><p>100% dry spices hit with hot oil at the perfect moment — no wet pastes, no shortcuts. The heat blooms every spice instantly for maximum flavor.</p></div>
+          <div class="feature-content"><h3>Hot Oil Drizzle Method</h3><p>100% dry spices hit with hot oil at the perfect moment — no wet pastes, no shortcuts. The heat blooms every spice instantly for maximum flavor.</p></div>
         </div>
         <div class="feature">
           <div class="feature-icon-wrap">🌿</div>
-          <div class="feature-content"><h4>Sichuan Peppercorn</h4><p>The heart of the "má là" tradition. Floral, citrusy, and electric — the tingle that defines Sichuan cuisine worldwide.</p></div>
+          <div class="feature-content"><h3>Sichuan Peppercorn</h3><p>The heart of the "má là" tradition. Floral, citrusy, and electric — the tingle that defines Sichuan cuisine worldwide.</p></div>
         </div>
         <div class="feature">
           <div class="feature-icon-wrap">🔥</div>
-          <div class="feature-content"><h4>Facing Heaven Chilies</h4><p>Named for how they grow — skyward. Bright color, fruity heat, and deep smoky undertones that build beautifully.</p></div>
+          <div class="feature-content"><h3>Facing Heaven Chilies</h3><p>Named for how they grow — skyward. Bright color, fruity heat, and deep smoky undertones that build beautifully.</p></div>
         </div>
         <div class="feature">
           <div class="feature-icon-wrap">🫒</div>
-          <div class="feature-content"><h4>Premium Oil Base</h4><p>Drizzled at the perfect temperature over dry spices to bloom maximum flavor instantly — rich, aromatic, and perfectly balanced.</p></div>
+          <div class="feature-content"><h3>Premium Oil Base</h3><p>Drizzled at the perfect temperature over dry spices to bloom maximum flavor instantly — rich, aromatic, and perfectly balanced.</p></div>
         </div>
         <div class="feature">
           <div class="feature-icon-wrap">⭐</div>
-          <div class="feature-content"><h4>Toasted Sesame</h4><p>Warm, nutty depth and beautiful fragrance. Rounds out the heat and adds richness to every finish.</p></div>
+          <div class="feature-content"><h3>Toasted Sesame</h3><p>Warm, nutty depth and beautiful fragrance. Rounds out the heat and adds richness to every finish.</p></div>
         </div>
         <div class="feature">
           <div class="feature-icon-wrap">🏔️</div>
-          <div class="feature-content"><h4>Chengdu Tradition</h4><p>Chili crisp traces its roots to Chengdu street food stalls where bold flavor is a way of life — and we honor that every batch.</p></div>
+          <div class="feature-content"><h3>Chengdu Tradition</h3><p>Chili crisp traces its roots to Chengdu street food stalls where bold flavor is a way of life — and we honor that every batch.</p></div>
         </div>
       </div>
     </div>
@@ -538,14 +541,14 @@
       <div class="divider"></div>
       <p style="font-size:15px; line-height:1.75; color:#5a3a1a; max-width:520px;">The beauty of chili crisp is its total shamelessness. It belongs on almost everything.</p>
       <div class="pairings-grid">
-        <div class="pairing-card"><span class="pairing-emoji">🥚</span><h4>Eggs, Any Style</h4><p>Soft-scrambled, fried, poached — chili crisp is the upgrade every egg has been waiting for.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🍜</span><h4>Noodles & Ramen</h4><p>Stir into instant ramen or hand-pulled noodles for a restaurant-level upgrade in 30 seconds.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🍕</span><h4>Pizza</h4><p>Drizzle over hot pizza instead of red pepper flakes. You will never go back. Ever.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🥗</span><h4>Salads & Bowls</h4><p>Use as a dressing base. Nutty, spicy, complex — makes grain bowls actually exciting.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🥟</span><h4>Dumplings</h4><p>The classic Sichuan pairing. Spoon over boiled wontons with a splash of black vinegar.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🍗</span><h4>Grilled Meats</h4><p>Brush on chicken, pork, or beef. Instant Sichuan street-food energy, zero effort.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🧀</span><h4>Cheese Board</h4><p>Drizzle over a cheese board. The heat cuts through richness in a way that feels like magic.</p></div>
-        <div class="pairing-card"><span class="pairing-emoji">🫘</span><h4>Beans & Tofu</h4><p>Silken tofu + chili crisp + soy sauce = dinner. Transform bland proteins instantly.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🥚</span><h3>Eggs, Any Style</h3><p>Soft-scrambled, fried, poached — chili crisp is the upgrade every egg has been waiting for.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🍜</span><h3>Noodles & Ramen</h3><p>Stir into instant ramen or hand-pulled noodles for a restaurant-level upgrade in 30 seconds.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🍕</span><h3>Pizza</h3><p>Drizzle over hot pizza instead of red pepper flakes. You will never go back. Ever.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🥗</span><h3>Salads & Bowls</h3><p>Use as a dressing base. Nutty, spicy, complex — makes grain bowls actually exciting.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🥟</span><h3>Dumplings</h3><p>The classic Sichuan pairing. Spoon over boiled wontons with a splash of black vinegar.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🍗</span><h3>Grilled Meats</h3><p>Brush on chicken, pork, or beef. Instant Sichuan street-food energy, zero effort.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🧀</span><h3>Cheese Board</h3><p>Drizzle over a cheese board. The heat cuts through richness in a way that feels like magic.</p></div>
+        <div class="pairing-card"><span class="pairing-emoji">🫘</span><h3>Beans & Tofu</h3><p>Silken tofu + chili crisp + soy sauce = dinner. Transform bland proteins instantly.</p></div>
       </div>
     </div>
   </section>
@@ -558,12 +561,12 @@
       <div class="divider"></div>
       <p style="font-size:15px; line-height:1.75; color:#5a3a1a; max-width:520px;">No fillers. No artificial anything. Just the ingredients that have been making Sichuan food extraordinary for centuries.</p>
       <div class="ing-list">
-        <div class="ing-item"><div class="ing-dot"></div><div><h4>Premium Oil</h4><p>Rich, neutral base that carries all the flavors and lets the spices truly shine.</p></div></div>
-        <div class="ing-item"><div class="ing-dot"></div><div><h4>Sichuan Chili</h4><p>Bright, fruity, boldly hot — toasted for maximum depth and color.</p></div></div>
-        <div class="ing-item"><div class="ing-dot"></div><div><h4>Toasted Sesame</h4><p>Warm, nutty, aromatic. Adds richness and that signature toasty finish.</p></div></div>
-        <div class="ing-item"><div class="ing-dot"></div><div><h4>Sichuan Peppercorn</h4><p>The tingle-maker. Floral, citrusy, and unlike anything else in the spice world.</p></div></div>
-        <div class="ing-item"><div class="ing-dot"></div><div><h4>Dry Aromatics</h4><p>A carefully balanced blend of all-dry spices — no wet pastes, pure concentrated flavor.</p></div></div>
-        <div class="ing-item"><div class="ing-dot"></div><div><h4>That's It</h4><p>Real ingredients. Honest craft. Nothing you can't pronounce on the label.</p></div></div>
+        <div class="ing-item"><div class="ing-dot"></div><div><h3>Premium Oil</h3><p>Rich, neutral base that carries all the flavors and lets the spices truly shine.</p></div></div>
+        <div class="ing-item"><div class="ing-dot"></div><div><h3>Sichuan Chili</h3><p>Bright, fruity, boldly hot — toasted for maximum depth and color.</p></div></div>
+        <div class="ing-item"><div class="ing-dot"></div><div><h3>Toasted Sesame</h3><p>Warm, nutty, aromatic. Adds richness and that signature toasty finish.</p></div></div>
+        <div class="ing-item"><div class="ing-dot"></div><div><h3>Sichuan Peppercorn</h3><p>The tingle-maker. Floral, citrusy, and unlike anything else in the spice world.</p></div></div>
+        <div class="ing-item"><div class="ing-dot"></div><div><h3>Dry Aromatics</h3><p>A carefully balanced blend of all-dry spices — no wet pastes, pure concentrated flavor.</p></div></div>
+        <div class="ing-item"><div class="ing-dot"></div><div><h3>That's It</h3><p>Real ingredients. Honest craft. Nothing you can't pronounce on the label.</p></div></div>
       </div>
     </div>
   </section>
@@ -597,6 +600,8 @@
   </div>
 
   <!-- FOOTER -->
+
+  </main>
   <footer style="flex-direction: column; align-items: flex-start; gap: 28px;">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; flex-wrap: wrap; gap: 24px;">
       <div>
